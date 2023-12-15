@@ -40,10 +40,12 @@ namespace Mind_Plus_API_Isabelle.Repository
         ------------------------------------------------------------------------------------------------=
         ***** [A IDEIA FUTURAMENTE É SUBSTITUIR O DELETE DAQUI POR UM PUT] -> Arquivamento de dados *****
         //update -- REMOVER colaborador
-        public async Task UpdateEmployee(EmployeesEntity employee)
+        public async Task DeleteEmployee(EmployeesEntity employee)
         {
             string sql = @"
-                xxxxxxxxxxxxxxxxxxxxxx
+                UPDATE COLABORADORES
+                   SET active = false
+                 WHERE Id = @Id
             ";
             await Execute(sql, employee);
         }
