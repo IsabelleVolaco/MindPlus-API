@@ -2259,11 +2259,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\isabelle.volaco\\OneDrive - SENAC-SC\\Documentos\\Mind-Plus-API-Isabelle\\Mind-Plus-API-Isabelle\\Mind-Plus-API-Isabelle.csproj",
+      "projectUniqueName": "C:\\Users\\isabelle.volaco\\OneDrive - SENAC-SC\\Documentos\\MindPlus API\\Mind-Plus-API-Isabelle\\Mind-Plus-API-Isabelle\\Mind-Plus-API-Isabelle.csproj",
       "projectName": "Mind-Plus-API-Isabelle",
-      "projectPath": "C:\\Users\\isabelle.volaco\\OneDrive - SENAC-SC\\Documentos\\Mind-Plus-API-Isabelle\\Mind-Plus-API-Isabelle\\Mind-Plus-API-Isabelle.csproj",
+      "projectPath": "C:\\Users\\isabelle.volaco\\OneDrive - SENAC-SC\\Documentos\\MindPlus API\\Mind-Plus-API-Isabelle\\Mind-Plus-API-Isabelle\\Mind-Plus-API-Isabelle.csproj",
       "packagesPath": "C:\\Users\\isabelle.volaco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\isabelle.volaco\\OneDrive - SENAC-SC\\Documentos\\Mind-Plus-API-Isabelle\\Mind-Plus-API-Isabelle\\obj\\",
+      "outputPath": "C:\\Users\\isabelle.volaco\\OneDrive - SENAC-SC\\Documentos\\MindPlus API\\Mind-Plus-API-Isabelle\\Mind-Plus-API-Isabelle\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

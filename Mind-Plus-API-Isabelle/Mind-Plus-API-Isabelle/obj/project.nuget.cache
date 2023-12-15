@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sTzlcdh768Y16mLKVRL367R+zUA7edVgz3NyuXqyV7EL8YjQE87WrWfz2qFIQ09yt8rWeocKLoOz/ewXAiOJjg==",
+  "dgSpecHash": "ipV8y0Bb75OGPrtG3/PjFlYUxuCmpM6dY6cR79e9+dqvevsL2Yzc1nOIeInzZLb0hhgAzZX5J7w80nBhox6s/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\isabelle.volaco\\OneDrive - SENAC-SC\\Documentos\\Mind-Plus-API-Isabelle\\Mind-Plus-API-Isabelle\\Mind-Plus-API-Isabelle.csproj",
+  "projectFilePath": "C:\\Users\\isabelle.volaco\\OneDrive - SENAC-SC\\Documentos\\MindPlus API\\Mind-Plus-API-Isabelle\\Mind-Plus-API-Isabelle\\Mind-Plus-API-Isabelle.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\isabelle.volaco\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\isabelle.volaco\\.nuget\\packages\\dapper\\2.1.24\\dapper.2.1.24.nupkg.sha512",

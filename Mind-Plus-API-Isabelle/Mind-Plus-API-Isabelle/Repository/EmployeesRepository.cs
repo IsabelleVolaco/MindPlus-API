@@ -12,7 +12,7 @@ namespace Mind_Plus_API_Isabelle.Repository
         public async Task AddEmployee(EmployeesDTO employee) 
         {
             string sql = @"
-                INSERT INTO COLABORADORES (Name, Email, Phone, Address, Office, Company, Password, Contract)
+                INSERT INTO colaboradores (Name, Email, Phone, Address, Office, Company, Password, Contract)
                             VALUE (@Name, @Email, @Phone, @Address, @Office, @Company, @Password, @Contract)
             ";
             await Execute(sql, employee); 
@@ -22,7 +22,7 @@ namespace Mind_Plus_API_Isabelle.Repository
         public async Task UpdateEmployee(EmployeesEntity employee)
         {
             string sql = @"
-                UPDATE COLABORADORES
+                UPDATE colaboradores
                    SET Name = @Name, 
                        Email = @Email, 
                        Phone = @Phone,
@@ -53,21 +53,21 @@ namespace Mind_Plus_API_Isabelle.Repository
         //delete -- REMOVER colaborador
         public async Task DeleteEmployee(int id)
         {
-            string sql = @"DELETE FROM COLABORADORES WHERE Id = @id";
+            string sql = @"DELETE FROM colaboradores WHERE Id = @id";
             await Execute(sql, new { id });
         }
 
         //read
         public async Task<IEnumerable<EmployeesEntity>> ViewEmployee()
         {
-            string sql = @"SELECT * FROM COLABORADORES";
+            string sql = @"SELECT * FROM colaboradores";
             return await GetConnection().QueryAsync<EmployeesEntity>(sql);
         }
 
 
         public async Task<EmployeesEntity> GetById(int id)
         {
-            string sql = "SELECT * FROM USER WHERE Id = @id";
+            string sql = "SELECT * FROM colaboradores WHERE Id = @id";
             return await GetConnection().QueryFirstAsync<EmployeesEntity>(sql, new { id });
         }
 

@@ -7,7 +7,7 @@ using Mind_Plus_API_Isabelle.Entity;
 namespace Mind_Plus_API_Isabelle.Controllers
 {
     [ApiController]
-    [Route("employee")] 
+    [Route("colaboradores")] 
     public class EmployeesController : ControllerBase
     {
         private readonly IEmployeesRepository _employeesRepository; 

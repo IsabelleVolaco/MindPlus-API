@@ -5,7 +5,7 @@ using Mind_Plus_API_Isabelle.Repository;
 namespace Mind_Plus_API_Isabelle.Controllers
 {
     [ApiController]
-    [Route("employee/login")]
+    [Route("colaboradores/login")]
     public class LoginController : ControllerBase
     {
         private readonly ILoginRepository _loginRepository;
